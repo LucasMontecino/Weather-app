@@ -3,7 +3,8 @@ import './App.css';
 import axios from 'axios';
 import Cards from './components/Cards.jsx';
 import Nav from './components/Nav.jsx';
-const apiKey = "a6c2a6002b5c44fae09314c889130194";
+require('dotenv').config();
+const { apiKey } = process.env;
 
 
 
