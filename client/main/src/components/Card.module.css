@@ -1,0 +1,41 @@
+body{
+    background-image: url("../img/weatherimg.jpg");
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    background: rgba(211, 24, 71, 0.288);
+    border: 1px solid rgba(211, 24, 71, 0.63);
+    border-radius: 4px;
+    color: #ccc;
+    margin: 5px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+
+.button1{
+    position: relative;
+    left: 100px;
+    top: 5px;
+    margin: 3px;
+    border-radius: 4px;
+    border: 1px solid rgba(211, 24, 71, 0.63);
+    background: rgba(216, 100, 23, 0.747);
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.button1:hover{
+    background-color: rgba(204, 204, 204, 0.377);
+    color: antiquewhite;
+}
+
+.img{
+    position: relative;
+    bottom: 20px;
+}

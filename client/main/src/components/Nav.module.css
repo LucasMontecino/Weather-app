@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    background-color: rgba(143, 8, 87, 0.253);
+    border: 1px solid rgba(211, 24, 71, 0.63);
+    border-radius: 6px;
+    margin: 20px;
+}
+
+.box{
+    padding-top: 3px;
+    padding-left: 100px;
+    color: #ccc;
+}
+
+.box2{
+    position: absolute;
+    right: 10px;
+    padding-right: 20px;
+}
+
+
+
+
